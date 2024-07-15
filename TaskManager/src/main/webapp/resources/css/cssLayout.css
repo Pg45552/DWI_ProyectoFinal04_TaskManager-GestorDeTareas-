@@ -1,0 +1,102 @@
+#top {
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+#bottom {
+    position: relative;
+    background-color: #c2dfef;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 10px;
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 10px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 10px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 10px;
+    margin-left: 170px;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"],
+form button {
+    background-color: #036fab;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #024a74;
+}
